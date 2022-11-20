@@ -3,6 +3,7 @@ package com.qhy040404.easychangelog
 /**
  * @param delimiter Delimiter between versions, e.g. "v", "---"
  */
+@Suppress("unused")
 class EasyChangelog(private val delimiter: String) {
     /**
      * @param fullLog Full Changelog
