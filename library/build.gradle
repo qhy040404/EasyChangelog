@@ -34,6 +34,9 @@ android {
                 "-XXLanguage:+InlineClasses",
         ]
     }
+    buildFeatures {
+        buildConfig false
+    }
 }
 
 dependencies {
@@ -54,7 +57,7 @@ afterEvaluate {
                 // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
                 artifactId = 'library'
                 // Version Library Name (Example : "1.0.0")
-                version = '1.0.3'
+                version = '1.0.4'
             }
         }
     }

@@ -50,7 +50,7 @@ ext {
     desc = 'Easy to get Changelog in app'
     licences = ['Apache-2.0']
     groupId = 'com.qhy040404'
-    version = '1.0.3'
+    version = '1.0.4'
 }
 
 ext {
