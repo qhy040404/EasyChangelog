@@ -9,6 +9,7 @@ ext {
 }
 
 android {
+    namespace "com.qhy040404.easychangelog"
     compileSdk 33
     defaultConfig {
         minSdk 23
